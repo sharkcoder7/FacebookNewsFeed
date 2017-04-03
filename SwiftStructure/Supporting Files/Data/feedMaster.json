@@ -1,0 +1,245 @@
+{
+    "result":
+[
+  {
+  "feedId": 1,
+  "name": "Andy Marry",
+  "profileImage": "Male.jpg",
+  "feedDate": "2017-03-04 10:48",
+  "feedTitle": "It's Samsung's next big thing. Honestly it's really big #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo1.png",
+                "caption": "This is caption space ~"
+                }
+                ]
+  },
+  {
+ "feedId": 2,
+ "name": "Mark Steven",
+ "profileImage": "Male.jpg",
+  "feedDate": "2017-01-04 3:48",
+ "feedTitle": "Virat Kohli receives Padma Shri award! #Video",
+  "feedMediaType": 3,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "https://vziptvapi.azurewebsites.net/assets/stream/output/VZ_Kevin_Hart.mp4.m3u8",
+                "caption": "This is caption space ~"
+                }
+                ]
+  },
+  {
+ "feedId": 3,
+ "name": "Maria Lee",
+ "profileImage": "Female.jpg",
+  "feedDate": "2017-01-04 3:48",
+  "feedTitle": "1971 Beyond Borders Official Trailer #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo2.png",
+                "caption": "This is caption space ~"
+                }
+                ]
+  },
+  {
+ "feedId": 4,
+ "name": "Leonardo Asin",
+ "profileImage": "Male.jpg",
+  "feedDate": "2016-10-04 6:30",
+  "feedTitle": "Ravi Ettan showed me some portions of this film..and it looks amazing! All the best Lalettan, Major, Red Rose and the entire #1971BB team! #Video",
+  "feedMediaType": 3,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "https://vziptvapi.azurewebsites.net/assets/stream/output/VZ_reConnect.mp4.m3u8",
+                "caption": "This is caption space ~"
+                }
+                ]
+  },
+  {
+ "feedId": 5,
+ "name": "Monica Rocaford",
+ "profileImage": "Female.jpg",
+  "feedDate": "2016-10-04 4:30",
+  "feedTitle": "#Ipl_2017: Sarfaraz Khan to replace injured virat kohli says Daniel Vettori. #Video",
+  "feedMediaType": 3,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "https://vziptvapi.azurewebsites.net/assets/stream/output/VZ_Fear.mp4.m3u8",
+                "caption": "This is caption space ~"
+                }
+                ]
+  },
+  {
+ "feedId": 6,
+ "name": "Lisa Taylor",
+ "profileImage": "Female.jpg",
+  "feedDate": "2016-12-04 6:30",
+  "feedTitle": "Wow.. watching this, I felt like Lalettan acted in a Hollywood Movie.. #Sujith etta awesome work.. wishing all sucess to Major Ravi sir and the entire team.. Lalettans second 100 cr club. #Text",
+  "feedMediaType": 2,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo3.png",
+                "caption": "This is caption space ~"
+                }
+                ]
+  },
+  {
+ "feedId": 7,
+ "name": "Ronaldo Booker",
+ "profileImage": "Male.jpg",
+  "feedDate": "2017-2-10 6:30",
+  "feedTitle": "However, the guests will not be able to spend too much time with the adorable twins. #Video",
+  "feedMediaType": 3,
+ "feedMedia": [
+               {
+               "id": 1,
+               "url": "https://vziptvapi.azurewebsites.net/assets/stream/output/VZ_NFL.mp4.m3u8",
+               "caption": "This is caption space ~"
+               }
+               ]
+  },
+  {
+ "feedId": 8,
+ "name": "Jim Brodie",
+ "profileImage": "Male.jpg",
+  "feedDate": "2017-2-24 8:30",
+  "feedTitle": "Tea Party is a fun and tasty game in which you will collect teddy bears and make a tea party with gifts and treats. Here you will find fascinating puzzles... #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo4.png",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  },
+  {
+ "feedId": 9,
+ "name": "Jonty Fernandez",
+ "profileImage": "Male.jpg",
+  "feedDate": "2016-10-04 6:30",
+  "feedTitle": "Way to the city of #Columbus!! #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo1.png",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  },
+  {
+ "feedId": 10,
+ "name": "Jensi Swift",
+ "profileImage": "Female.jpg",
+  "feedDate": "2016-10-15 11:30",
+  "feedTitle": "Are those the new Facebook mixed reality glasses? With MicroLED projector technology built in? #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo2.png",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  },
+  {
+ "feedId": 11,
+ "name": "Paul Allen",
+ "profileImage": "Male.jpg",
+  "feedDate": "2016-10-09 9:30",
+  "feedTitle": "There is nothing on this earth more to be prized than true #friendship. #Video",
+  "feedMediaType": 3,
+ "feedMedia": [
+               {
+               "id": 1,
+               "url": "https://vziptvapi.azurewebsites.net/assets/stream/output/VZ_Marching_Band.mp4.m3u8",
+               "caption": "This is caption space ~"
+               }
+               ]
+  },
+  {
+ "feedId": 12,
+ "name": "Anna John",
+ "profileImage": "Female.jpg",
+  "feedDate": "2017-3-04 16:30",
+  "feedTitle": "The #ChaitraNavratras bring a feeling of auspiciousness and a mood of celebration and the feeling lasts for nine whole days, or nights... #Video",
+  "feedMediaType": 3,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "https://vziptvapi.azurewebsites.net/assets/stream/output/VZ_Kevin_Hart.mp4.m3u8",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  },
+  {
+ "feedId": 13,
+ "name": "Jesicca Moore",
+ "profileImage": "Female.jpg",
+  "feedDate": "2017-1-04 12:30",
+  "feedTitle": "Today 20 March is International #HappinessDay. International Day of Happiness is celebrated throughout the world on the 20th of March. It was established by the United Nations General Assembly on 28 June 2012. It was on this day in year 2014 that I had the privilege of being invited at the UN Headquarters New York to spread the light of happiness globally! #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo3.png",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  },
+  {
+ "feedId": 14,
+ "name": "Paul Hudson",
+ "profileImage": "Male.jpg",
+  "feedDate": "2016-10-04 6:30",
+  "feedTitle": "What makes you #HAPPY? Let us know here http://lastlemon.com/ and we'll illustrate it. #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo4.png",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  },
+  {
+ "feedId": 15,
+ "name": "Don Bradman",
+ "profileImage": "Male.jpg",
+  "feedDate": "2017-3-13 9:30",
+ "feedTitle": "Here is a new Video in Simplified iOS. \nWe will keep posting it as a playlist to cover all the basics of iOS Application Development. \nThank YOU #Video",
+  "feedMediaType": 3,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "https://vziptvapi.azurewebsites.net/assets/stream/output/VZ_reConnect.mp4.m3u8",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  },
+  {
+ "feedId": 16,
+ "name": "Robert Bolero",
+ "profileImage": "Male.jpg",
+  "feedDate": "2016-10-04 6:30",
+  "feedTitle": "Manage server calls, json parsing, json object requests, json array requests, image downloading and caching etc. using android volley library. #Image",
+  "feedMediaType": 1,
+  "feedMedia": [
+                {
+                "id": 1,
+                "url": "photo1.png",
+                "caption": "This is caption space for image ~"
+                }
+                ]
+  }
+  ]
+}

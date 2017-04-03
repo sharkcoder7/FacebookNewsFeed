@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="gothicb.ttf">
+            <string>CenturyGothic-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavigationBar" customModule="EyeReliever" customModuleProvider="target">
+            <connections>
+                <outlet property="btnLeft" destination="0s3-2z-xgV" id="bOV-NQ-Xfx"/>
+                <outlet property="btnRight" destination="rLV-JZ-qnW" id="gC7-FS-mry"/>
+                <outlet property="lblTitle" destination="TUk-15-YfZ" id="Gmq-va-HWZ"/>
+                <outlet property="view" destination="0gC-IU-HCz" id="FJD-hV-F8H"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0gC-IU-HCz">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUk-15-YfZ">
+                    <rect key="frame" x="102" y="19" width="243" height="40"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_app_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wh8-Ce-Kec">
+                    <rect key="frame" x="60" y="21" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="2cu-6X-Qti"/>
+                        <constraint firstAttribute="width" secondItem="Wh8-Ce-Kec" secondAttribute="height" multiplier="1:1" id="dRf-VT-LfT"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0s3-2z-xgV">
+                    <rect key="frame" x="10" y="19" width="40" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0s3-2z-xgV" secondAttribute="height" id="HpV-Fs-k0N"/>
+                        <constraint firstAttribute="height" constant="40" id="emH-5S-rVX"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="emH-5S-rVX"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLV-JZ-qnW">
+                    <rect key="frame" x="350" y="19" width="40" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rLV-JZ-qnW" secondAttribute="height" id="B9j-RM-iBd"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cog-Av-JPm" userLabel="ViewSeprator">
+                    <rect key="frame" x="0.0" y="63" width="400" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="H9d-a1-Zta"/>
+                        <constraint firstAttribute="height" constant="1" id="Osx-BU-VQp"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="H9d-a1-Zta"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="H9d-a1-Zta"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.25490196078431371" green="0.41176470588235292" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="TUk-15-YfZ" firstAttribute="bottom" secondItem="0s3-2z-xgV" secondAttribute="bottom" id="1Xx-wX-jlJ"/>
+                <constraint firstItem="Wh8-Ce-Kec" firstAttribute="leading" secondItem="0s3-2z-xgV" secondAttribute="trailing" constant="10" id="3sN-o9-Z2g"/>
+                <constraint firstAttribute="bottom" secondItem="cog-Av-JPm" secondAttribute="bottom" id="56G-gR-0eA"/>
+                <constraint firstItem="rLV-JZ-qnW" firstAttribute="top" secondItem="0s3-2z-xgV" secondAttribute="top" id="6cJ-Cl-EeD"/>
+                <constraint firstAttribute="bottom" secondItem="0s3-2z-xgV" secondAttribute="bottom" constant="5" id="Bl4-HX-SdY"/>
+                <constraint firstItem="0s3-2z-xgV" firstAttribute="leading" secondItem="0gC-IU-HCz" secondAttribute="leading" constant="10" id="CBz-Of-GZA"/>
+                <constraint firstItem="Wh8-Ce-Kec" firstAttribute="top" secondItem="0gC-IU-HCz" secondAttribute="top" constant="21" id="COB-YS-rjH"/>
+                <constraint firstItem="TUk-15-YfZ" firstAttribute="leading" secondItem="Wh8-Ce-Kec" secondAttribute="trailing" constant="7" id="KKe-lP-Icp"/>
+                <constraint firstAttribute="trailing" secondItem="rLV-JZ-qnW" secondAttribute="trailing" constant="10" id="KTU-Yl-Wc8"/>
+                <constraint firstAttribute="trailing" secondItem="cog-Av-JPm" secondAttribute="trailing" id="YnQ-7d-aws"/>
+                <constraint firstItem="rLV-JZ-qnW" firstAttribute="leading" secondItem="TUk-15-YfZ" secondAttribute="trailing" constant="5" id="kEe-Ip-kq1"/>
+                <constraint firstItem="rLV-JZ-qnW" firstAttribute="bottom" secondItem="0s3-2z-xgV" secondAttribute="bottom" id="qck-AR-4o2"/>
+                <constraint firstItem="0s3-2z-xgV" firstAttribute="height" secondItem="0gC-IU-HCz" secondAttribute="height" multiplier="1:1.6" id="r0I-qX-kVE"/>
+                <constraint firstItem="TUk-15-YfZ" firstAttribute="top" secondItem="0s3-2z-xgV" secondAttribute="top" id="sDw-iG-7Sy"/>
+                <constraint firstItem="cog-Av-JPm" firstAttribute="leading" secondItem="0gC-IU-HCz" secondAttribute="leading" id="tvO-FO-tUC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="240" y="-7"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_app_logo.png" width="54" height="54"/>
+    </resources>
+</document>
